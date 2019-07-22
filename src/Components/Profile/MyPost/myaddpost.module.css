@@ -1,0 +1,64 @@
+.addPostMain {
+    background: #ffffff;
+
+}
+
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #f2f5f8;
+    border-radius: 5px;
+    margin: 20px 15px 10px;
+    padding: 10px;
+}
+
+.postNews {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #f2f5f8;
+    border-radius: 5px;
+}
+
+.textarea {
+    grid-column: 1;
+    grid-row: 1;
+    resize: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 20px;
+    padding: 10px 30px 10px 10px;
+    overflow: hidden;
+}
+
+.buttonAdd {
+    grid-column: 1;
+    grid-row: 1;
+    background: url("../../../img/AddIcon.png") no-repeat center;
+    border: 0px;
+    height: 20px;
+    width: 20px;
+    justify-self: end;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.buttonAdd:hover {
+    opacity: 1;
+}
+
+.button {
+    grid-row: 1;
+    width: 80px;
+    background: #24aa98;
+    color: #fff;
+    height: 42px;
+    cursor: pointer;
+    border: 0px;
+    align-self: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+

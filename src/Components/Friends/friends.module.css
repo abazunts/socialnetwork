@@ -1,0 +1,25 @@
+.friends {
+     grid-column: 2/3;
+     grid-row: 1;
+     background: #fff;
+     border-radius: 5px;
+     justify-self: right;
+     margin-top: 10px;
+     padding-bottom: 10px;
+ }
+
+.friend  {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.status {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #24aa98;
+    border-radius: 5px;
+}

@@ -1,0 +1,92 @@
+.comments {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-color: #dee2e7;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-right: 25px;
+
+}
+
+.commentBlock {
+    display: grid;
+    grid-template-columns: 2fr 1fr 8fr 1fr;
+
+}
+
+.myPhoto {
+    grid-column: 2;
+    grid-row: 1/5;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.buttons {
+    grid-column: 4;
+    grid-row: 3;
+    font-size: 14px;
+    color: #000;
+    justify-content: right;
+}
+
+.message {
+    grid-column: 3/5;
+    grid-row: 2;
+    justify-self: left;
+    text-align: left;
+    color: #bdbec1;
+    margin-bottom: 3px;
+}
+
+.myName {
+    grid-column: 3/5;
+    grid-row: 1;
+    color: #000;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.like {
+    margin-left: 5px;
+    border: 0;
+    width: 60px;
+    cursor: pointer;
+    background: url("./../../../../img/LikeIcon.png") no-repeat left;
+}
+
+.date {
+    grid-column: 3/5;
+    grid-row: 3;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 15px;
+    color: #77bfe5;
+    border-bottom: 1px solid;
+    border-color: #dee2e7;
+    padding-bottom: 5px;
+}
+
+.date a {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #24aa98;
+    font-weight: 600;
+}
+
+.date a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+

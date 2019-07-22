@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #b8bfc6;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 15px;
+  background: #f2f5f8;
+}
+
+.header {
+  display: grid;
+}
+
+.menu {
+  grid-column: 3;
+  grid-row: 2;
+  align-items: end;
+}
+
+.contentBlock {
+  grid-column: 4/8;
+  grid-row: 2;
+  width: 100%
+}
+
+
+::-webkit-input-placeholder {color:#7fd8cd; opacity:1;}/* webkit */
+::-moz-placeholder          {color:#7fd8cd; opacity:1;}/* Firefox 19+ */
+:-moz-placeholder           {color:#7fd8cd; opacity:1;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#7fd8cd; opacity:1;}/* IE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

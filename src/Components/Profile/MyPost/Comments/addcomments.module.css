@@ -1,0 +1,43 @@
+.comments {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-color: #dee2e7;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-right: 25px;
+
+}
+
+.commentBlock {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+}
+
+
+
+.textarea {
+    grid-column: 2;
+    grid-row: 1;
+    resize: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 20px;
+    padding: 10px 30px 10px 10px;
+    overflow: hidden;
+}
+
+.button {
+    grid-column: 3;
+    grid-row: 1;
+    width: 80px;
+    background: #24aa98;
+    color: #fff;
+    height: 42px;
+    cursor: pointer;
+    border: 0px;
+    justify-self: right;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+

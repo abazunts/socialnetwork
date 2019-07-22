@@ -1,0 +1,15 @@
+functional ( dumb, stateless) component
+class (container, smart, stateful) component
+
+Route, NavLink, hoc withRouter
+redux: store, reducer, action, action creator, thunk, thunk creator, ducks 
+connect, mapStateToProps, mapDispatchToProps
+axios: get, put, post, delete, options, cors 
+css modules
+styled components
+class component: state, setState
+selectors, reselect 
+redux-forms
+tests
+
+

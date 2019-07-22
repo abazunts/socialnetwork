@@ -1,0 +1,38 @@
+.login {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+}
+
+.input {
+    grid-column: 1;
+    margin-bottom: 10px;
+}
+
+.input input {
+    margin-top: 10px;
+
+}
+.buttonLogin {
+    grid-column: 1;
+    width: 80px;
+    background: #24aa98;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    border: 0px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.captcha {
+    width: 170px;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    color: red;
+    font-size: 16px;
+
+}
+

@@ -1,0 +1,100 @@
+.containerProfile {
+    grid-column: 2;
+    grid-row: 1;
+    background: #fff;
+    border-radius: 5px;
+    justify-self: right;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.profileSmall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.editProfile {
+    grid-column: 1/4;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.editProfile a {
+    color: #65abd0;
+}
+
+
+.myPhoto {
+    grid-column: 1/4;
+    width: 180px;
+    height: 180px;
+    justify-self: center;
+    border-radius: 10px;
+    border: none;
+    background-size: cover;
+}
+
+.profileName {
+    grid-column: 1/4;
+    color: #383737;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.titles {
+    font-size: 14px;
+    color: #42c7b7;
+}
+
+.title {
+    font-weight: 600;
+    color: #383737;
+    font-size: 24px;
+}
+
+.titlePhotos {
+    grid-column: 1;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.titleFollowers {
+    grid-column: 2;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.titleFollowing {
+    grid-column: 3;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.button {
+    grid-column: 1/4;
+    justify-self: center;
+    background: #24aa98;
+    width: 180px;
+    height: 36px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.links {
+    color: #42c7b7;
+}
+
+.links:hover {
+    color: #000;
+}
+
+

@@ -1,0 +1,43 @@
+.messages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5px;
+}
+
+.messageRight {
+    grid-column: 2;
+    color: white;
+    display: block;
+    background: #24aa98;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: right;
+    justify-self: right;
+    border-bottom-style: groove;
+}
+
+.messageLeft {
+    grid-column: 1;
+    text-align: left;
+    color: white;
+    display: block;
+    background: #5093b7;
+    border-radius: 10px;
+    padding: 5px;
+    justify-self: left;
+    border-bottom-style: groove;
+}
+
+.messageRight>span {
+    font-weight: 600;
+    size: 18px;
+}
+
+.spanNameLeft {
+    text-align: left;
+
+}
+
+.spanNameright {
+    text-align: right;
+}

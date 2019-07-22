@@ -1,0 +1,168 @@
+.containerContent {
+
+}
+
+.profile {
+    display: grid;
+    background: url("./../../../img/Photobigprofile.png") no-repeat;
+    height: 192px;
+
+}
+
+.settingsNav {
+    grid-column: 5;
+    cursor: pointer;
+    background: url("./../../../img/SettingsIcon.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    border: 0;
+    display: block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.yourPhoto {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border: none;
+    justify-self: right;
+}
+
+.yourName {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.statusUser {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+    color: #FFF;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.mail {
+    grid-column: 4;
+    grid-row: 3;
+    justify-self: right;
+    background: #65abd0 url("./../../../img/MessageIcon.png") no-repeat center;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.follow {
+    grid-column: 5;
+    grid-row: 3;
+    background: #24aa98;
+    color: #fff;
+    width: 80px;
+    height: 36px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    color: #383737;
+    background: #fff;
+    font-weight: 600;
+}
+
+.stat {
+    grid-column: 1/6;
+    padding: 10px;
+}
+
+.titleFollowers {
+    grid-column: 1;
+    padding-left: 10px;
+}
+
+.titleFollowing {
+    grid-column: 2;
+    padding-left: 10px;
+}
+
+.titleComments {
+    grid-column: 3;
+    padding-left: 10px;
+}
+
+.titleLikes {
+    grid-column: 4;
+    padding-left: 10px;
+}
+
+
+.titleHed {
+    font-size: 20px;
+    text-align: left;
+    color: #42c7b7;
+    margin-right: 10px;
+}
+
+.titleIntro {
+    font-weight: 600;
+    color: #383737;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.titleIntro a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    color: #42c7b7;
+}
+
+.links:hover {
+    color: #000;
+}
+
+.statusNew {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+
+.aboutMe {
+    grid-column: 1;
+    grid-row: 1;
+    resize: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #65abd0;
+    padding-bottom: 20px;
+    border: none;
+    overflow: hidden;
+    outLine: none;
+
+}
+
+
+
+

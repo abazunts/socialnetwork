@@ -1,0 +1,96 @@
+.rFriendsItem {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background: #ffffff;
+}
+
+.photo {
+    grid-column: 1;
+    grid-row: 1/6;
+}
+
+.avatar {
+    grid-column: 1;
+    grid-row: 2/4;
+    align-self: center;
+}
+
+.name {
+    grid-column: 1;
+    grid-row: 4;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.city {
+    grid-column: 1;
+    grid-row: 4;
+    padding-top: 30px;
+}
+
+.count {
+    grid-column: 1;
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: max-content;
+    justify-self: center;
+    grid-column-gap: 40px;
+    margin-top: 10px;
+    color: #000;
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+    border-color: #b8bfc6;
+
+}
+
+.photoCount {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.videoCount {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.songCount {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.status {
+    grid-column: 1;
+    grid-row: 7;
+    text-align: justify;
+    margin: 10px 40px 15px;
+}
+
+.titles {
+    grid-row: 1;
+    font-size: 16px;
+}
+
+.titles a {
+    color: #939aa1;
+}
+
+.titles a:hover {
+    color: #000;
+}
+
+.button {
+    margin: 0px 40px 15px;
+    height: 35px;
+    border: 0;
+    background-color: #65abd0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

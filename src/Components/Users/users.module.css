@@ -1,0 +1,126 @@
+.content {
+    display: grid;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.users img {
+    grid-column: 1;
+    grid-row: 1/5;
+    width:70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-right: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.title {
+    grid-column: 1/4;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #24aa98;
+    border-radius: 5px;
+}
+
+
+
+.button {
+    grid-column: 2;
+    border: 0;
+    background-color: #65abd0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-self: left;
+    width: 100px;
+    height: 25px;
+}
+
+.fullName {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: left;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.location {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.status {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: left;
+    color: #000;
+}
+
+.readMore {
+    border: 0;
+    background-color: #65abd0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-self: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.paginationActive {
+    cursor: pointer;
+    border: 1px solid;
+    background: #65abd0;
+    color: #fff;
+    padding: 5px;
+}
+
+.pagination {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    margin: 2px;
+}
+
+.pagination:hover{
+    cursor: pointer;
+    background: #65abd0;
+    color: #000;
+    padding: 5px;
+}
+
+.navigationPage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preloader {
+    display: block;
+    justify-self:  center;
+}
