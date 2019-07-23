@@ -2,8 +2,10 @@
   "name": "socialnetwork",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abazunts.github.io/socialnetwork/",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-auto-resize": "0.0.2",
@@ -19,6 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
