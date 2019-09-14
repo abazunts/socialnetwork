@@ -1,0 +1,20 @@
+{
+  "main.css": "/socialnetwork/static/css/main.b1bc54b8.chunk.css",
+  "main.js": "/socialnetwork/static/js/main.c3d071c5.chunk.js",
+  "main.js.map": "/socialnetwork/static/js/main.c3d071c5.chunk.js.map",
+  "runtime~main.js": "/socialnetwork/static/js/runtime~main.7e06743d.js",
+  "runtime~main.js.map": "/socialnetwork/static/js/runtime~main.7e06743d.js.map",
+  "static/js/2.1a8119bd.chunk.js": "/socialnetwork/static/js/2.1a8119bd.chunk.js",
+  "static/js/2.1a8119bd.chunk.js.map": "/socialnetwork/static/js/2.1a8119bd.chunk.js.map",
+  "index.html": "/socialnetwork/index.html",
+  "precache-manifest.9e19a9056af3e238ade7159e78713960.js": "/socialnetwork/precache-manifest.9e19a9056af3e238ade7159e78713960.js",
+  "service-worker.js": "/socialnetwork/service-worker.js",
+  "static/css/main.b1bc54b8.chunk.css.map": "/socialnetwork/static/css/main.b1bc54b8.chunk.css.map",
+  "static/media/profileinfo.module.css": "/socialnetwork/static/media/Photobigprofile.78df590d.png",
+  "static/media/ajax-loader.gif": "/socialnetwork/static/media/ajax-loader.7c5f2d73.gif",
+  "static/media/myphoto.png": "/socialnetwork/static/media/myphoto.1e269a9f.png",
+  "static/media/photo.png": "/socialnetwork/static/media/photo.f30f6e50.png",
+  "static/media/rfriendsavatar.png": "/socialnetwork/static/media/rfriendsavatar.8db0f8df.png",
+  "static/media/rfriendsphoto.png": "/socialnetwork/static/media/rfriendsphoto.824a1adf.png",
+  "static/media/userphoto.png": "/socialnetwork/static/media/userphoto.e2ea906b.png"
+}
